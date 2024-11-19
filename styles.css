@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: "Figtree", sans-serif;
 }
 
 .card {
@@ -13,4 +14,38 @@ body {
     max-width: 350px;
     margin: 1rem;
     border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
 }
+
+.card-image {
+    margin-bottom: 20px;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    padding:8px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.description {
+    color: hsl(0, 0%, 42%)
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
